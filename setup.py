@@ -5,13 +5,13 @@ from setuptools import find_packages, setup
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-carrier',
-    version='0.1',
+    name='django_carrier_client',
+    version='0.2',
     packages=find_packages(),
     include_package_data=True,
     license='MIT',
     description='A simple Django client for Carrier',
-    url='https://github.com/EduScaled/django-carrier',
+    url='https://github.com/EduScaled/django-carrier-client',
     author='Nick Lubyanov',
     author_email='lubyanov@gmail.com',
 )
