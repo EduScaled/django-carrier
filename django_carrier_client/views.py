@@ -10,7 +10,6 @@ def callback(request):
             message_manager.handle_message(
                 IncomingMessage.create_from_bytes(request.body)
             )
-        # TODO must return meaningful response
         return HttpResponse()
     else: 
         raise Http404

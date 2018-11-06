@@ -1,5 +1,6 @@
 .vscode
 .eggs
+.DS_Store
 *.egg-info
 venv
 __pycache__
